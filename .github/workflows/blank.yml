@@ -68,7 +68,7 @@ jobs:
       run: |
         pip install pillow requests
 
-    - name: Run show.bat (Ignoring Error Gofile 500) ⚠
+    - name: Run show.bat (Ignoring Error Gofile 500) ⚠️
       shell: cmd
       run: |
         call show.bat
